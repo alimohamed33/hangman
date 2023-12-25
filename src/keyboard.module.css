@@ -1,0 +1,12 @@
+.btnActive {
+  background-color: hsl(200, 100%, 50%);
+  color: #fff;
+}
+.btnInactive {
+  opacity: 0.3;
+}
+button:disabled:hover,
+button:disabled:focus {
+  background-color: transparent;
+  color: black;
+}
